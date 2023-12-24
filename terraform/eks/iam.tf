@@ -1,7 +1,7 @@
 # AWS permissions for Crossplane
 module "iam_assumable_role_crossplane" {
   source    = "terraform-aws-modules/iam/aws//modules/iam-role-for-service-accounts-eks"
-  version   = "5.21.0"
+  version   = "5.33.0"
   role_name = "${var.cluster_name}-crossplane"
 
   assume_role_condition_test = "StringLike"
