@@ -2,6 +2,8 @@
 
 The main purpose of this repository is to demonstrate how [**Cilium**](https://cilium.io/) implements the ☸ [**Gateway-API**](https://gateway-api.sigs.k8s.io/) standard. [**Here**](https://blog.ogenki.io/) is the related blog post.
 
+⚠️⚠️ **Deprecated please refer to the [Cloud Native Reference](https://github.com/Smana/demo-cloud-native-ref) repo for an up to date example** ⚠️⚠️
+
 ![overview](.assets/cilium-gateway-api.png)
 
 This repository also is a reference for configuring a platform with the following key points:
